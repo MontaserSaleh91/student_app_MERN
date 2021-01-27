@@ -1,0 +1,84 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background: #f5efef;
+}
+
+.information {
+  margin-left:auto;
+  margin-right:auto;
+  max-width: 600px;
+  background: #F7F7F7;
+  padding: 25px 15px 25px 10px;
+  box-shadow: 1px 1px 5px #B6B6B6;
+
+}
+
+input {
+  background: rgba(255,255,255,0.1);
+  border: none;
+  font-size: 16px;
+  height: auto;
+  margin: 0;
+  outline: 0;
+  padding: 10px;
+  width: 95%;
+  background-color: #e8eeef;
+  color: #8a97a0;
+  box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
+  margin-bottom: 20px;
+
+}
+
+ button {
+  border: none;
+  padding: 10px 25px 10px 25px;
+  color: #FFF;
+  box-shadow: 1px 1px 5px #B6B6B6;
+  border-radius: 3px;
+  text-shadow: 1px 1px 1px #9E3F3F;
+} 
+
+.add-btn{
+  background: #E27575;
+  width: 99%;
+}
+
+ button:hover {
+  cursor: pointer;
+}
+
+.students {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+} 
+
+.btn-student{
+  background: #6865f7;
+}
+
+.btn-update{
+  background: #1dd2d8;
+}
+
+.btn-delete{
+  background: #d81d1d;
+  margin-left: 20px;
+}
+
+.student {
+  width: 800px;
+  height: auto;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 10px;
+  display: flex;
+  padding: 10px;
+  background-color: #f1f1f1;
+}
+
+.student h3 {
+  margin: 20px;
+}
